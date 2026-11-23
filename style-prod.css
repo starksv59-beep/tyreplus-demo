@@ -206,3 +206,8 @@ main { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gut); }
 @media (max-width: 960px) {
   .s-hero__photo { display: block; }
 }
+
+
+/* правка «перенос по слогам»: заголовок переносится только целыми словами */
+.s-hero h1 { hyphens: manual; }
+.s-steps h3 { hyphens: manual; }
